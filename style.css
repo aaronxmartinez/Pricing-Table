@@ -1,0 +1,61 @@
+@media(max-width: 630px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 95vh;
+}
+
+.basic_plan, .standard_plan, .premium_plan {
+    background-color: lightgray;
+    margin: 5px;
+    padding: 20px;
+    max-width: 400px;
+    height: 180px;
+    border-radius: 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+
+.pricing_plan {
+    text-align: center;
+    font-weight: 300;
+    font-size: xx-large;
+    }
+    
+ul {
+    text-align: center;
+    font-style: italic;
+}
+
+.button {
+    background-color:darkorange;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+    width: 30%;
+}
+
+.button:hover {
+    background-color: rgb(254, 166, 59);
+    width: 40%;
+    font-size: large;
+}
